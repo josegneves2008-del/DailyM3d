@@ -65,15 +65,15 @@
             <div class="hero-visual" aria-hidden="true">
                 <!-- Carrossel de imagens -->
                 <div class="carousel">
-                    <div class="carousel-track">
-                        <img src="images/carrocel/(A) tela de inicio.jpeg" alt="Tela de início">
-                        <img src="images/carrocel/(B) armario de medicamentos.jpeg" alt="Armário de medicamentos">
-                        <img src="images/carrocel/(C) lembretes (1).jpeg" alt="Lembretes 1">
-                        <img src="images/carrocel/(D) lembretes (2).jpeg" alt="Lembretes 2">
-                        <img src="images/carrocel/(F) guia de reciclagem (2).jpeg" alt="Guia de reciclagem 2">
-                        <img src="images/carrocel/(G) guia de reciclagem.jpeg" alt="Guia de reciclagem">
-                        <img src="images/carrocel/(H) dicas de saude.jpeg" alt="Dicas de saúde">
-                    </div>
+                        <div class="carousel-track">
+                            <img loading="lazy" class="responsive-img" src="images/carrocel/(A) tela de inicio.jpeg" alt="Tela de início">
+                            <img loading="lazy" class="responsive-img" src="images/carrocel/(B) armario de medicamentos.jpeg" alt="Armário de medicamentos">
+                            <img loading="lazy" class="responsive-img" src="images/carrocel/(C) lembretes (1).jpeg" alt="Lembretes 1">
+                            <img loading="lazy" class="responsive-img" src="images/carrocel/(D) lembretes (2).jpeg" alt="Lembretes 2">
+                            <img loading="lazy" class="responsive-img" src="images/carrocel/(F) guia de reciclagem (2).jpeg" alt="Guia de reciclagem 2">
+                            <img loading="lazy" class="responsive-img" src="images/carrocel/(G) guia de reciclagem.jpeg" alt="Guia de reciclagem">
+                            <img loading="lazy" class="responsive-img" src="images/carrocel/(H) dicas de saude.jpeg" alt="Dicas de saúde">
+                        </div>
                     <button class="carousel-btn prev">&#10094;</button>
                     <button class="carousel-btn next">&#10095;</button>
                 </div>
@@ -174,19 +174,31 @@
                 <div class="preview-grid">
                     <div class="preview-card">
                         <div class="preview-screen">
-                            <img src="images/capturas/1.jpeg" alt="Resumo diário" style="width:100%;height:auto;border-radius:24px;">
+                            <picture>
+                                <source type="image/webp" srcset="optimized/capturas/1-480.webp 480w, optimized/capturas/1-800.webp 800w, optimized/capturas/1-1200.webp 1200w, optimized/capturas/1-1600.webp 1600w" sizes="(max-width:600px) 480px, (max-width:1200px) 800px, 1200px">
+                                <source type="image/jpeg" srcset="optimized/capturas/1-480.jpg 480w, optimized/capturas/1-800.jpg 800w, optimized/capturas/1-1200.jpg 1200w, optimized/capturas/1-1600.jpg 1600w">
+                                <img loading="lazy" class="responsive-img" src="images/capturas/1.jpeg" alt="Resumo diário" style="border-radius:24px; width:100%; height:auto;">
+                            </picture>
                         </div>
                         <p>Resumo diário com alertas de toma e validade.</p>
                     </div>
                     <div class="preview-card">
                         <div class="preview-screen">
-                            <img src="images/capturas/2.jpeg" alt="Armário digital" style="width:100%;height:auto;border-radius:24px;">
+                            <picture>
+                                <source type="image/webp" srcset="optimized/capturas/2-480.webp 480w, optimized/capturas/2-800.webp 800w, optimized/capturas/2-1200.webp 1200w, optimized/capturas/2-1600.webp 1600w" sizes="(max-width:600px) 480px, (max-width:1200px) 800px, 1200px">
+                                <source type="image/jpeg" srcset="optimized/capturas/2-480.jpg 480w, optimized/capturas/2-800.jpg 800w, optimized/capturas/2-1200.jpg 1200w, optimized/capturas/2-1600.jpg 1600w">
+                                <img loading="lazy" class="responsive-img" src="images/capturas/2.jpeg" alt="Armário digital" style="border-radius:24px; width:100%; height:auto;">
+                            </picture>
                         </div>
                         <p>Armário digital com detalhes de cada medicamento.</p>
                     </div>
                     <div class="preview-card">
                         <div class="preview-screen">
-                            <img src="images/capturas/3.jpeg" alt="Calendário de posologia" style="width:100%;height:auto;border-radius:24px;">
+                            <picture>
+                                <source type="image/webp" srcset="optimized/capturas/3-480.webp 480w, optimized/capturas/3-800.webp 800w, optimized/capturas/3-1200.webp 1200w, optimized/capturas/3-1600.webp 1600w" sizes="(max-width:600px) 480px, (max-width:1200px) 800px, 1200px">
+                                <source type="image/jpeg" srcset="optimized/capturas/3-480.jpg 480w, optimized/capturas/3-800.jpg 800w, optimized/capturas/3-1200.jpg 1200w, optimized/capturas/3-1600.jpg 1600w">
+                                <img loading="lazy" class="responsive-img" src="images/capturas/3.jpeg" alt="Calendário de posologia" style="border-radius:24px; width:100%; height:auto;">
+                            </picture>
                         </div>
                         <p>Calendário de posologia e confirmação de tomas.</p>
                     </div>

@@ -84,6 +84,20 @@ img {
     display: block;
 }
 
+/* Regras globais adicionais para imagens responsivas */
+.responsive-img,
+picture img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.limited-height {
+    max-height: 420px;
+    overflow: hidden;
+}
+
 a {
     color: inherit;
     text-decoration: none;
